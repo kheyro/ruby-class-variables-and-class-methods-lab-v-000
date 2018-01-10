@@ -32,6 +32,7 @@ class Song
     @@artists.each do |artist|
       test[artist] = test[artist] + 1 || 0
     end
+    test
   end
 
 end
